@@ -1,0 +1,178 @@
+{
+  "albums": [
+    {
+      "albumsID": 1,
+      "title": "Favorites",
+      "artist": "Tuấn Kiên Playlist",
+      "image": "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/451818536_1223089905484823_3992639084512765548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=semZVhwBTygQ7kNvgHEfhX6&_nc_ht=scontent.fhan5-8.fna&oh=00_AYCgoSC3WpP3QLGdCHHTsrXFOuSRhGxa5S6XiV0IIahtMA&oe=669FE5C0",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "albumsID": 2,
+      "title": "Ate",
+      "artist": "Stray kids",
+      "image": "https://www.nme.com/wp-content/uploads/2022/03/stray-kids-oddinary-review-maniac-1392x884.jpeg",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "albumsID": 3,
+      "title": "Tuấn Kiên Say HII",
+      "artist": "Tuấn Kiên",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/332863520_499475735717906_1494248596837305271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=yRyUccqNKlIQ7kNvgHXEFdR&_nc_ht=scontent.fhan5-6.fna&oh=00_AYDxIbscifsLl04D5GrVRVVQnhlF52gin1L9YwfKEnrq3A&oe=669FEB58",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "albumsID": 4,
+      "title": "Set me free",
+      "artist": "Twice",
+      "image": "https://th.bing.com/th/id/OIP.Ne57Wl1sHS8IMpIaDb-9ywHaHa?rs=1&pid=ImgDetMain",
+      "url": "http://www.nme.com/wp-content/"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "image": "https://th.bing.com/th/id/OIP.Hs9nPI6WxWOGNL0TzXdn5AHaLj?rs=1&pid=ImgDetMain",
+      "title": "Up",
+      "artistId": 1,
+      "artist": "Karina",
+      "path": "../video/KARINA  UP  lyrics (카리나  UP  가사) (Color coded lyrics Eng_Rom_Han).mp3"
+    },
+    {
+      "id": 2,
+      "image": "https://th.bing.com/th/id/OIP.r3DYaVIqLt2Jvu6tNHBFpwHaHV?rs=1&pid=ImgDetMain",
+      "title": "Forever",
+      "artistId": 2,
+      "artist": "babyMonster",
+      "path": "../video/BABYMONSTER  FOREVER MV.mp3"
+    },
+    
+    {
+      "id": 6,
+      "title": "'Hold On Tight' (SINK HYPERLINE Remix Ver.)",
+      "artist": "Aespa",
+      "artistId": 6,
+      "path": "../video/aespa  Hold On Tight SINK HYPERLINE Remix Ver.mp3",
+      "image": "https://th.bing.com/th/id/OIP.Fu2fIz0Jf8QdEV8EUW50dgHaLH?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 7,
+      "title": "LOVE SAND",
+      "artist": "HIEUTHUHAI, JSOL, ALI HOÀNG DƯƠNG, VŨ THỊNH",
+      "artistId": 7,
+      "path": "../video/LOVE SAND feat HIEUTHUHAI JSOL ALI HONG DNG V THNH.mp3",
+      "image": "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/451818536_1223089905484823_3992639084512765548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=semZVhwBTygQ7kNvgHEfhX6&_nc_ht=scontent.fhan5-8.fna&oh=00_AYCgoSC3WpP3QLGdCHHTsrXFOuSRhGxa5S6XiV0IIahtMA&oe=669FE5C0"
+    },
+    {
+      "id": 9,
+      "title": "THI SĨ",
+      "artist": "ĐỨC PHÚC, ERIK, PHẠM ANH DUY, TAGE",
+      "artistId": 9,
+      "path": "../video/THI S feat C PHC ERIK PHM ANH DUY TAGE.mp3",
+      "image": "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-1/415269334_1356294995071128_3545317286173550539_n.jpg?stp=dst-jpg_s200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=uCpzhyB68TMQ7kNvgHs_p4z&_nc_ht=scontent.fhan5-10.fna&oh=00_AYBvkS8R0Ot9NQ4zY7eNyDpcvB--OzIdAyfpMqwFFrgvVQ&oe=669FE613"
+    },
+    {
+      "id": 10,
+      "title": "HÀO QUANG",
+      "artist": " Rhyder, Dương Domic, Pháp Kiều",
+      "artistId": 10,
+      "path": "../video/HAO QUANG feat RHYDER DUONG DOMIC PHAP KIEU.mp3",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/332863520_499475735717906_1494248596837305271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=yRyUccqNKlIQ7kNvgHXEFdR&_nc_ht=scontent.fhan5-6.fna&oh=00_AYDxIbscifsLl04D5GrVRVVQnhlF52gin1L9YwfKEnrq3A&oe=669FEB58"
+    },
+    {
+      "id": 11,
+      "title": "NỖI ĐAU NGÂY DẠI",
+      "artist": "HIEUTHUHAI, Đức Phúc, Công Dương",
+      "artistId": 11,
+      "path": "../video//NI AU NGY DI feat HIEUTHUHAI c Phc Cng Dng.mp3",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-1/137551304_508617293442238_4788786649072075051_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=e4545e&_nc_ohc=HKf8b897_5EQ7kNvgHxbST-&_nc_ht=scontent.fhan5-6.fna&oh=00_AYCkqT0tAb3YW_4GYOUgAXfnN2l9jh0K7_JGUROK5PFC-w&oe=66C1674C"
+    }
+  ],
+  "top-songs": [
+    {
+      "id": 7,
+      "title": "LOVE SAND",
+      "artist": "HIEUTHUHAI, JSOL, ALI HOÀNG DƯƠNG, VŨ THỊNH",
+      "artistId": 7,
+      "path": "../video/LOVE SAND feat HIEUTHUHAI JSOL ALI HONG DNG V THNH.mp3",
+      "image": "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/451818536_1223089905484823_3992639084512765548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=semZVhwBTygQ7kNvgHEfhX6&_nc_ht=scontent.fhan5-8.fna&oh=00_AYCgoSC3WpP3QLGdCHHTsrXFOuSRhGxa5S6XiV0IIahtMA&oe=669FE5C0"
+    },
+    {
+      "id": 9,
+      "title": "THI SĨ",
+      "artist": "ĐỨC PHÚC, ERIK, PHẠM ANH DUY, TAGE",
+      "artistId": 9,
+      "path": "../video/THI S feat C PHC ERIK PHM ANH DUY TAGE.mp3",
+      "image": "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-1/415269334_1356294995071128_3545317286173550539_n.jpg?stp=dst-jpg_s200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=uCpzhyB68TMQ7kNvgHs_p4z&_nc_ht=scontent.fhan5-10.fna&oh=00_AYBvkS8R0Ot9NQ4zY7eNyDpcvB--OzIdAyfpMqwFFrgvVQ&oe=669FE613"
+    },
+    {
+      "id": 10,
+      "title": "HÀO QUANG",
+      "artist": " Rhyder, Dương Domic, Pháp Kiều",
+      "artistId": 10,
+      "path": "../video/HAO QUANG feat RHYDER DUONG DOMIC PHAP KIEU.mp3",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/332863520_499475735717906_1494248596837305271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=yRyUccqNKlIQ7kNvgHXEFdR&_nc_ht=scontent.fhan5-6.fna&oh=00_AYDxIbscifsLl04D5GrVRVVQnhlF52gin1L9YwfKEnrq3A&oe=669FEB58"
+    },
+    {
+      "id": 11,
+      "title": "NỖI ĐAU NGÂY DẠI",
+      "artist": "HIEUTHUHAI, Đức Phúc, Công Dương",
+      "artistId": 11,
+      "path": "../video/NI AU NGY DI feat HIEUTHUHAI c Phc Cng Dng.mp3",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-1/137551304_508617293442238_4788786649072075051_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=e4545e&_nc_ohc=HKf8b897_5EQ7kNvgHxbST-&_nc_ht=scontent.fhan5-6.fna&oh=00_AYCkqT0tAb3YW_4GYOUgAXfnN2l9jh0K7_JGUROK5PFC-w&oe=66C1674C"
+    }
+    
+  ],
+  "artists": [
+    {
+      "artistId": 1,
+      "name": "Karina",
+      "title": "Up",
+      "image": "https://th.bing.com/th/id/OIP.Hs9nPI6WxWOGNL0TzXdn5AHaLj?rs=1&pid=ImgDetMain",
+      "description": "Yu Ji-min (Hangul: 유지민, Hanja: 劉知珉, Hán-Việt: Lưu Trí Mẫn; sinh ngày 11 tháng 4 năm 2000), thường được biết đến với nghệ danh Karina, là một nữ ca sĩ, rapper và vũ công người Hàn Quốc. Cô được biết đến là thành viên kiêm trưởng nhóm của nhóm nhạc nữ Hàn Quốc aespa do SM Entertainment thành lập và quản lý, đồng thời còn là thành viên của siêu nhóm nhạc nữ Got the Beat."
+    },
+    {
+      "artistId": 2,
+      "name": "babyMonster",
+      "title": "Forever",
+      "image": "https://th.bing.com/th/id/OIP.r3DYaVIqLt2Jvu6tNHBFpwHaHV?rs=1&pid=ImgDetMain",
+      "description": "BabyMonster (Tiếng Hàn: 베이비몬스터; Romaja: Beibimonseuteo, cách điệu bằng các chữ in hoa), còn được gọi là Baemon (Tiếng Hàn: 배몬; Romaja: Baemon), là một nhóm nhạc nữ Hàn Quốc được thành lập và quản lý bởi YG Entertainment. Nhóm bao gồm 7 thành viên: Ruka, Pharita, Asa, Ahyeon, Rami, Rora và Chiquita.[1] Đội hình đầy đủ của BabyMonster chính thức được ra mắt vào ngày 1 tháng 4 năm 2024 với EP BabyMons7er."
+    },
+    
+    {
+      "artistId": 6,
+      "name": "Aespa",
+      "title": "'Hold On Tight' (SINK HYPERLINE Remix Ver.)",
+      "image": "https://i.ytimg.com/vi/nNsDcZx_T4g/maxresdefault.jpg",
+      "description": "aespa (cách điệu: æspa, tiếng Triều Tiên: 에스파) là một nhóm nhạc nữ Hàn Quốc được SM Entertainment thành lập và quản lý vào năm 2020, bao gồm bốn thành viên Karina, Giselle, Winter và Ningning. Nhóm ra mắt vào ngày 17 tháng 11 năm 2020 với đĩa đơn đầu tay 'Black Mamba'"
+    },
+    {
+      "artistId": 10,
+      "name": "RHYDER, DƯƠNG DOMIC, PHÁP KIỀU",
+      "title": "HÀO QUANG",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/332863520_499475735717906_1494248596837305271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=yRyUccqNKlIQ7kNvgHXEFdR&_nc_ht=scontent.fhan5-6.fna&oh=00_AYDxIbscifsLl04D5GrVRVVQnhlF52gin1L9YwfKEnrq3A&oe=669FEB58",
+      "description": "Nguyễn Quang Anh (sinh ngày 18 tháng 3 năm 2001), còn được biết đến với nghệ danh là Rhyder (cách điệu là: RHYDER) hay Quang Anh Rhyder, là một rapper, ca sĩ người Việt Nam. Quang Anh nổi danh từ khi đoạt giải quán quân Giọng hát Việt nhí năm 2013 .[1] Sau đó, anh bắt đầu tham gia các hoạt động âm nhạc với vai trò ca sĩ. Tuy chỉ mới 12 tuổi nhưng anh được giới chuyên môn và khán giả đánh giá cao bởi khả năng ca hát, cảm thụ âm nhạc và phong cách trình diễn đầy máu nghệ sĩ của mình. Hiện tại anh đang thử sức theo đuổi thể loại nhạc Rap và tiếp tục rèn luyện nâng cao khả năng của mình trong Rock, Pop, Dance-pop."
+    },
+    {
+      "artistId": 9,
+      "name": "ĐỨC PHÚC, ERIK, PHẠM ANH DUY, TAGE",
+      "title": "THI SĨ",
+      "image": "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-1/415269334_1356294995071128_3545317286173550539_n.jpg?stp=dst-jpg_s200x200&_nc_cat=101&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=uCpzhyB68TMQ7kNvgHs_p4z&_nc_ht=scontent.fhan5-10.fna&oh=00_AYBvkS8R0Ot9NQ4zY7eNyDpcvB--OzIdAyfpMqwFFrgvVQ&oe=669FE613",
+      "description": "Nguyễn Đức Phúc (sinh ngày 15 tháng 10 năm 1996), thường được biết đến với nghệ danh Đức Phúc, là một nam ca sĩ người Việt Nam. Anh được khán giả biết đến rộng rãi với tư cách quán quân của mùa thứ ba trong Giọng hát Việt[1].Anh từng là sinh viên khoa kiến trúc Trường Đại học Xây dựng Hà Nội vào năm 2014 và sau khi quyết định Nam tiến, theo học khoa Mỹ thuật công nghiệp ở Trường Đại học Văn Lang, sau đó tạm dừng và bảo lưu kết quả học tập để bước vào sự nghiệp âm nhạc.[2]"
+    },
+    {
+      "artistId": 11,
+      "name": "HIEUTHUHAI, Đức Phúc, Công Dương",
+      "title": "NỖI ĐAU NGÂY DẠI",
+      "image": "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-1/137551304_508617293442238_4788786649072075051_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=e4545e&_nc_ohc=HKf8b897_5EQ7kNvgHxbST-&_nc_ht=scontent.fhan5-6.fna&oh=00_AYCkqT0tAb3YW_4GYOUgAXfnN2l9jh0K7_JGUROK5PFC-w&oe=66C1674C",
+      "description": "Trần Minh Hiếu (sinh ngày 28 tháng 9 năm 1999 tại Thành phố Hồ Chí Minh), thường được biết đến với nghệ danh HIEUTHUHAI hay cách viết khác là hieuthuhai,[a] là một nam rapper, ca sĩ kiêm sáng tác nhạc và diễn viên người Việt Nam. Anh hiện đang là thành viên của nhóm nhạc Gerdnang.Anh bắt đầu trở nên nổi tiếng sau khi tham gia chương trình Thế giới Rap – King of Rap mùa đầu tiên. Ngoài ra, anh cũng là thành viên chính trong chương trình truyền hình thực tế 2 ngày 1 đêm. Anh đã được đề cử Ca sĩ đột phá Giải thưởng Làn Sóng Xanh 2022 và Nghệ sĩ mới của năm Giải thưởng Cống hiến."
+    },
+    {
+      "artistId": 7,
+      "name": "HIEUTHUHAI, JSOL, ALI HOÀNG DƯƠNG, VŨ THỊNH",
+      "title": "LOVE SAND",
+      "image": "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/451818536_1223089905484823_3992639084512765548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=semZVhwBTygQ7kNvgHEfhX6&_nc_ht=scontent.fhan5-8.fna&oh=00_AYCgoSC3WpP3QLGdCHHTsrXFOuSRhGxa5S6XiV0IIahtMA&oe=669FE5C0",
+      "description": "Trần Minh Hiếu (sinh ngày 28 tháng 9 năm 1999 tại Thành phố Hồ Chí Minh), thường được biết đến với nghệ danh HIEUTHUHAI hay cách viết khác là hieuthuhai,[a] là một nam rapper, ca sĩ kiêm sáng tác nhạc và diễn viên người Việt Nam. Anh hiện đang là thành viên của nhóm nhạc Gerdnang.Anh bắt đầu trở nên nổi tiếng sau khi tham gia chương trình Thế giới Rap – King of Rap mùa đầu tiên. Ngoài ra, anh cũng là thành viên chính trong chương trình truyền hình thực tế 2 ngày 1 đêm. Anh đã được đề cử Ca sĩ đột phá Giải thưởng Làn Sóng Xanh 2022 và Nghệ sĩ mới của năm Giải thưởng Cống hiến."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Thunderous",
+      "artist": "Stray kids",
+      "image": "https://www.nme.com/wp-content/uploads/2022/03/stray-kids-oddinary-review-maniac-1392x884.jpeg",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "id": 2,
+      "title": "My World",
+      "artist": "Aespa",
+      "image": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/60/8d/ac/608dacc2-d6d6-462d-26f0-d693e4364751/artwork.jpg/1200x1200bf-60.jpg",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "id": 3,
+      "title": "Set me free",
+      "artist": "Twice",
+      "image": "https://th.bing.com/th/id/OIP.Ne57Wl1sHS8IMpIaDb-9ywHaHa?rs=1&pid=ImgDetMain",
+      "url": "http://www.nme.com/wp-content/"
+    },
+    {
+      "id": 4,
+      "title": "Tonight",
+      "artist": "Big Bang",
+      "image": "https://th.bing.com/th/id/R.5bc2b088edf61c499f245a7e9a89cbd2?rik=sv2Iw25AIJcfhw&riu=http%3a%2f%2ffc09.deviantart.net%2ffs70%2ff%2f2011%2f171%2fb%2f9%2fbig_bang___tonight_by_0o_lost_o0-d3jh8oq.jpg&ehk=nuyCFq3XwHYde009iAhLwIVfvwfNvTBy9Tjb%2fVpY3KA%3d&risl=&pid=ImgRaw&r=0",
+      "url": "http://www.nme.com/wp-content/"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "image": "https://th.bing.com/th/id/OIP.Hs9nPI6WxWOGNL0TzXdn5AHaLj?rs=1&pid=ImgDetMain",
+      "title": "Up",
+      "artistId": 1,
+      "artist": "Karina",
+      "path": "../video/KARINA  UP  lyrics (카리나  UP  가사) (Color coded lyrics Eng_Rom_Han).mp3"
+    },
+    {
+      "id": 2,
+      "image": "https://th.bing.com/th/id/OIP.r3DYaVIqLt2Jvu6tNHBFpwHaHV?rs=1&pid=ImgDetMain",
+      "title": "Forever",
+      "artistId": 2,
+      "artist": "babyMonster",
+      "path": "../video/ytmp3free.cc_babymonster-forever-mv-youtubemp3free.org.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Lose My Breath",
+      "artistId": 3,
+      "artist": "Stray Kids feat Charlie Puth",
+      "path": "../video/Stray Kids Lose My Breath Feat Charlie Puth MV.mp3",
+      "image": "https://th.bing.com/th/id/OIP.AgJE47GMi6wrzCOrx13kQgHaEK?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "title": "Ai Mà Biết Được (ft. Touliver)",
+      "artist": "SOOBIN, tlinh",
+      "artistId": 4,
+      "path": "../video/SOOBIN tlinh  Ai M Bit c ft Touliver  BT N LN Album Official MV.mp3",
+      "image": "https://th.bing.com/th/id/OIP.Uwhla_lFbonQT8_DPZOIEwHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 5,
+      "title": "ĐỪNG LÀM TRÁI TIM ANH ĐAU",
+      "artist": "SƠN TÙNG M-TP",
+      "artistId": 5,
+      "path": "../video/SN TNG MTP  NG LM TRI TIM ANH AU  OFFICIAL MUSIC VIDEO.mp3",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb51b32111f5bc456525313d89"
+    },
+    {
+      "id": 6,
+      "title": "'Hold On Tight' (SINK HYPERLINE Remix Ver.)",
+      "artist": "Aespa",
+      "artistId": 6,
+      "path": "../video/aespa  Hold On Tight SINK HYPERLINE Remix Ver.mp3",
+      "image": "https://th.bing.com/th/id/OIP.Fu2fIz0Jf8QdEV8EUW50dgHaLH?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 7,
+      "title": "ABCD",
+      "artist": "NAYEON-TWICE",
+      "artistId": 7,
+      "path": "../video/NAYEON ABCD Performance Video.mp3",
+      "image": "https://th.bing.com/th/id/OIP.DiN7BwOCtA_8jSOL5VQNrQHaMI?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 8,
+      "title": "Perfect World",
+      "artist": "TWICE",
+      "artistId": 8,
+      "path": "../video/TWICE Perfect World Music Video.mp3",
+      "image": "https://th.bing.com/th/id/OIP.6KojRnOA4H-3N35e0VfYugHaGk?rs=1&pid=ImgDetMains"
+    }
+  ],
+  "top-songs": [
+    {
+      "id": 1,
+      "title": "ĐỪNG LÀM TRÁI TIM ANH ĐAU",
+      "artist": "SƠN TÙNG M-TP",
+      "artistId": 5,
+      "path": "../video/SN TNG MTP  NG LM TRI TIM ANH AU  OFFICIAL MUSIC VIDEO.mp3",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb51b32111f5bc456525313d89"
+    },
+    {
+      "id": 2,
+      "title": "'Hold On Tight' (SINK HYPERLINE Remix Ver.)",
+      "artist": "Aespa",
+      "artistId": 6,
+      "path": "../video/aespa  Hold On Tight SINK HYPERLINE Remix Ver.mp3",
+      "image": "https://th.bing.com/th/id/OIP.Fu2fIz0Jf8QdEV8EUW50dgHaLH?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 3,
+      "title": "ABCD",
+      "artist": "NAYEON-TWICE",
+      "artistId": 7,
+      "path": "../video/NAYEON ABCD Performance Video.mp3",
+      "image": "https://th.bing.com/th/id/OIP.DiN7BwOCtA_8jSOL5VQNrQHaMI?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "title": "Perfect World",
+      "artist": "TWICE",
+      "artistId": 8,
+      "path": "../video/TWICE Perfect World Music Video.mp3",
+      "image": "https://th.bing.com/th/id/OIP.6KojRnOA4H-3N35e0VfYugHaGk?rs=1&pid=ImgDetMains"
+    },
+    {
+      "id": 5,
+      "image": "https://th.bing.com/th/id/OIP.r3DYaVIqLt2Jvu6tNHBFpwHaHV?rs=1&pid=ImgDetMain",
+      "title": "Forever",
+      "artistId": 2,
+      "artist": "babyMonster",
+      "path": "../video/ytmp3free.cc_babymonster-forever-mv-youtubemp3free.org.mp3"
+    }
+  ],
+  "artists": [
+    {
+      "artistId": 1,
+      "name": "Karina",
+      "image": "https://th.bing.com/th/id/OIP.Hs9nPI6WxWOGNL0TzXdn5AHaLj?rs=1&pid=ImgDetMain",
+      "description": "Yu Ji-min (Hangul: 유지민, Hanja: 劉知珉, Hán-Việt: Lưu Trí Mẫn; sinh ngày 11 tháng 4 năm 2000), thường được biết đến với nghệ danh Karina, là một nữ ca sĩ, rapper và vũ công người Hàn Quốc. Cô được biết đến là thành viên kiêm trưởng nhóm của nhóm nhạc nữ Hàn Quốc aespa do SM Entertainment thành lập và quản lý, đồng thời còn là thành viên của siêu nhóm nhạc nữ Got the Beat."
+    },
+    {
+      "artistId": 2,
+      "name": "babyMonster",
+      "image": "https://th.bing.com/th/id/OIP.r3DYaVIqLt2Jvu6tNHBFpwHaHV?rs=1&pid=ImgDetMain",
+      "description": "BabyMonster (Tiếng Hàn: 베이비몬스터; Romaja: Beibimonseuteo, cách điệu bằng các chữ in hoa), còn được gọi là Baemon (Tiếng Hàn: 배몬; Romaja: Baemon), là một nhóm nhạc nữ Hàn Quốc được thành lập và quản lý bởi YG Entertainment. Nhóm bao gồm 7 thành viên: Ruka, Pharita, Asa, Ahyeon, Rami, Rora và Chiquita.[1] Đội hình đầy đủ của BabyMonster chính thức được ra mắt vào ngày 1 tháng 4 năm 2024 với EP BabyMons7er."
+    },
+    {
+      "artistId": 3,
+      "name": "Stray Kids",
+      "image": "https://th.bing.com/th/id/OIP.AgJE47GMi6wrzCOrx13kQgHaEK?rs=1&pid=ImgDetMain",
+      "description": "Stray Kids (tiếng Hàn: 스트레이 키즈; RR: Seuteurei Kijeu; viết tắt: SKZ) là một nhóm nhạc nam Hàn Quốc được thành lập bởi JYP Entertainment thông qua chương trình truyền hình thực tế cùng tên. Nhóm hiện gồm 8 thành viên Bang Chan, Lee Know, Changbin, Hyunjin, HAN, Felix, Seungmin và I.N."
+    }
+  ]
+}

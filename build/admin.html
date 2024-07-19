@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-gray-600 flex w-full p-4 gap-2 h-screen">
+    <div class="basis-1/3 bg-slate-500 p-3 rounded-2xl overflow-y-auto">
+        <div>
+            <button
+                class="bg-slate-400 p-2 rounded-lg text-black font-semibold hover:bg-slate-700 hover:text-white" onclick="changeSongs()">Songs</button>
+            <button
+                class="bg-slate-400 p-2 rounded-lg text-black font-semibold hover:bg-slate-700 hover:text-white" onclick="changeArtists()">Artist
+                Details</button>
+        </div>
+        <div>
+            <div id="Songs">
+                <h2 class="text-center p-3 text-4xl font-bold text-white">Song Information</h2>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">ID</label>
+                    <input type="number" id="song_id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">Song ID</label>
+                    <input type="number" id="song_song_id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">Title</label>
+                    <input type="text" id="song_title_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">artist</label>
+                    <input type="text" id="song_artist_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">artist ID</label>
+                    <input type="number" id="song_artist_id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">Song Path</label>
+                    <input type="text" id="song_path_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800">Image Path</label>
+                    <input type="text" id="song_image_path_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <button class="p-2 bg-slate-800 text-white mt-3 rounded-xl" onclick="createSong()">Submit</button>
+            </div>
+            <div id="artist" class="hidden">
+                <h2 class="text-center p-3 text-4xl font-bold text-white">Artist Information</h2>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800" id="artist_Id_input">artist Id</label>
+                    <input type="number" value="0" id="id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800" id="artist_name_input">name</label>
+                    <input type="text" id="id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800" id="artist_title_input">Title</label>
+                    <input type="text" id="id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800" id="artist_des">Description</label>
+                    <input type="text" id="id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                
+                <div class="flex flex-col mt-2">
+                    <label for="" class="capitalize text-lg font-semibold text-slate-800" id="artist_path">Image Path</label>
+                    <input type="text" id="id_input" class="w-full p-2 border-0 rounded-md outline-none">
+                </div>
+                <button class="p-2 bg-slate-800 text-white mt-3 rounded-xl" onclick = "createArtist()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="basis-2/3 bg-slate-500 p-3 rounded-2xl overflow-y-auto">
+        <div>
+            <button
+                class="bg-slate-400 p-2 rounded-lg text-black font-semibold hover:bg-slate-700 hover:text-white" onclick="changeSongsDetails()">Songs</button>
+            <button
+                class="bg-slate-400 p-2 rounded-lg text-black font-semibold hover:bg-slate-700 hover:text-white" onclick="changeArtistsDetails()">Artist
+                Details</button>
+        </div>
+        <div>
+            <div id="songdetails" class="mt-5 hidden">
+                
+            </div>
+
+            <div id="artistdetails" class="mt-5 flex  flex-wrap gap-2 w-full">
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/admin.js"></script>
+</html>

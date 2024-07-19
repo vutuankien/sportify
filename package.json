@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "start": "npx json-server ./server/db.json",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
