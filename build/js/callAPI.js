@@ -1,7 +1,7 @@
 const albumAPI = "http://localhost:3000/albums";
 const songsAPI = "http://localhost:3000/songs";
 const topSongsAPI = "http://localhost:3000/top-songs";
-const artistAPI =  "http://localhost:3000/artists";
+const artistAPI = "http://localhost:3000/artists";
 
 
 
@@ -17,7 +17,7 @@ const detailsArtist = document.getElementById('detailsArtist')
 const detailsDes = document.getElementById('detailsDes')
 const lastSec = document.querySelector('#last_sec');
 const firstSec = document.querySelector('#first_sec');
-const progress   = document.querySelector('#progress');
+const progress = document.querySelector('#progress');
 const volumn = document.querySelector('#volumn');
 const nextBtn = document.querySelector('#nextSong');
 const preBtn = document.querySelector('#preSong');
@@ -32,8 +32,8 @@ function app() {
     callApi(renderAlbum, albumAPI);
     callApi(renderSong, songsAPI);
     callApi(renderTopSong, topSongsAPI);
-    audio.addEventListener('timeupdate',updateTime);
-    
+    audio.addEventListener('timeupdate', updateTime);
+
 }
 app()
 
@@ -49,7 +49,8 @@ function callApi(callback, api) {
 function renderAlbum(albums) {
     var html = albums.map(album => {
         return `
-        <div class="items group mt-3 flex items-center gap-4 p-3 rounded-lg hover:bg-slate-700 hover:transiton hover:duration-200 hover:ease-in-out cursor-pointer">
+        <a href = "${album.url}"> 
+            <div class="items group mt-3 flex items-center gap-4 p-3 rounded-lg hover:bg-slate-700 hover:transiton hover:duration-200 hover:ease-in-out cursor-pointer">
                         <img src="${album.image}"
                             alt="" class="w-10 h-10 rounded-full">
     
@@ -58,6 +59,7 @@ function renderAlbum(albums) {
                             <p class="text-xs capitalize text-gray-400 group-hover:text-white hover:transiton hover:duration-200 hover:ease-in-out">${album.artist}</p>
                         </div>
                     </div>
+        </a>
         `
     })
 
@@ -99,7 +101,7 @@ let currentPlayingId = null;
 function playSong(api, id) {
     const playBtn = document.querySelector('.play-song-' + id); // Chọn nút được nhấn
     const icon = playBtn.querySelector('i');
-    currentIndex  = id;
+    currentIndex = id;
     const allPlayButtons = document.querySelectorAll('.play-song i');
     allPlayButtons.forEach(btn => {
         btn.classList.remove('fa-pause');
@@ -158,7 +160,7 @@ function playSong(api, id) {
 
 function changeState() {
     if (!audio.paused) {
-        
+
         audio.pause();
         songPlayIcon.classList.remove('fa-pause');
         songPlayIcon.classList.add('fa-play');
@@ -172,13 +174,13 @@ function changeState() {
     }
 }
 
-songPlay.addEventListener("click",changeState)
-function changeVolumn(){
-    audio.volume  = volumn.value/100;
-    console.log(volumn.value/100);
+songPlay.addEventListener("click", changeState)
+function changeVolumn() {
+    audio.volume = volumn.value / 100;
+    console.log(volumn.value / 100);
 }
 
-async function fetchArtistDetails(artistId){
+async function fetchArtistDetails(artistId) {
     const response = await fetch(`${artistAPI}?artistId=${artistId}`);
     const artists = await response.json();
     console.log(artists);
@@ -202,31 +204,31 @@ function updateTime() {
     }
 }
 
-function skiptime(e){
-    const skiptime =  audio.duration / 100 * e.target.value;
+function skiptime(e) {
+    const skiptime = audio.duration / 100 * e.target.value;
     console.log(skiptime);
     audio.currentTime = skiptime;
 }
 
-progress.oninput = function(e){
-    const skiptime =  audio.duration / 100 * e.target.value;
+progress.oninput = function (e) {
+    const skiptime = audio.duration / 100 * e.target.value;
     console.log(e.target.value);
     audio.currentTime = skiptime;
 
-    if(e.target.value === 100){
+    if (e.target.value === 100) {
         audio.play()
     }
-    
+
 }
 
 audio.addEventListener('ended', () => {
-    audio.currentTime = 0; 
-    audio.play(); 
+    audio.currentTime = 0;
+    audio.play();
     progress.value = 0
 });
 
-volumn.addEventListener('input',(e)=>{
-    if(e.target.value > 80){
+volumn.addEventListener('input', (e) => {
+    if (e.target.value > 80) {
         alert("Bạn đang sử dụng âm thanh có hại cho tai")
     }
 })
@@ -238,27 +240,27 @@ nextBtn.addEventListener('click', () => {
         .then(function (response) {
             return response.json();
         })
-        .then(function(songs) {
+        .then(function (songs) {
             const currentSongIndex = songs.findIndex(song => song.id === currentPlayingId);
-            var nextSongIndex = currentSongIndex + 1; 
-            if(nextSongIndex === songs.length){
+            var nextSongIndex = currentSongIndex + 1;
+            if (nextSongIndex === songs.length) {
                 nextSongIndex = 0;
             }
-            console.log("nextSongIndex",nextSongIndex);
-            console.log("song length",songs.length);
+            console.log("nextSongIndex", nextSongIndex);
+            console.log("song length", songs.length);
             const nextSongId = songs[nextSongIndex].id;
             playSong(songsAPI, nextSongId); // Phát bài hát tiếp theo
         });
 });
 
-preBtn.addEventListener('click',()=>{
+preBtn.addEventListener('click', () => {
     console.log("click pre song");
     fetch(songsAPI)
-        .then(response => {return response.json();})
+        .then(response => { return response.json(); })
         .then(songs => {
             const currentSongIndex = songs.findIndex(song => song.id === currentPlayingId)
-            var preSongIndex  = currentSongIndex - 1;
-            if(preSongIndex < 0){
+            var preSongIndex = currentSongIndex - 1;
+            if (preSongIndex < 0) {
                 preSongIndex = songs.length - 1;
             }
             const preSongId = songs[preSongIndex].id;
@@ -266,15 +268,15 @@ preBtn.addEventListener('click',()=>{
         })
 })
 
-reloadBtn.addEventListener('click',() => {
+reloadBtn.addEventListener('click', () => {
     audio.currentTime = 0;
-    progress.value  = 0;
+    progress.value = 0;
     audio.play()
 })
 
-randomBtn.addEventListener('click',()=>{
+randomBtn.addEventListener('click', () => {
     fetch(songsAPI)
-        .then(response => {return response.json();})
+        .then(response => { return response.json(); })
         .then(songs => {
             const randomIndex = Math.floor(Math.random() * songs.length);
             console.log(randomIndex);

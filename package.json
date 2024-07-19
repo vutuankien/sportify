@@ -4,7 +4,8 @@
   },
   "scripts": {
     "start": "npx json-server ./server/db.json",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "youtube":"npx json-server ./server/youtube.json"
   },
   "dependencies": {
     "json-server": "^0.17.4"
